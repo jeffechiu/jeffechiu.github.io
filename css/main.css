@@ -688,6 +688,7 @@ ul.portfolioContainer li .lightCon{
 	margin:0px;
 	position:relative;
 	overflow:hidden;
+	border: 1px solid #6f6470;
 }
 ul.portfolioContainer li img{
 	 width:100% !important;
@@ -707,6 +708,8 @@ span.hoverBox{
 	-webkit-transition-duration: 0.2s;
 	
 	background: rgba(76, 64, 78, 0);
+	text-align: center;
+	vertical-align: middle;
 	
 }
 ul.portfolioContainer li:hover span.hoverBox{
@@ -720,8 +723,18 @@ ul.portfolioContainer li:hover span.hoverBox{
 	-webkit-transition-duration: 0.2s;
 }
 
+span.hoverBox .text {
+	width : 70%;
+	padding-top: 20%;
+	margin: auto;
+}
+
 span.hoverBox a{
-	line-height:54px;
+	font-size: 2em;
+}
+
+span.hoverBox p{
+
 }
 
 span.hoverBox .smallIcon{
@@ -738,11 +751,11 @@ span.hoverBox .zoom{
 	visibility:hidden;
 	width:74px;
 	height:74px;
-	border:1px solid #fff;
+	/*border:1px solid #fff;*/
 	color:#fff;
 	position: relative;
 	left:-180%;
-	background:url(../images/plus-icon.png) 50% 50% no-repeat;
+	/*background:url(../images/plus-icon.png) 50% 50% no-repeat;*/
 	margin-left:47px;
 	/*top:40%;*/
 	text-align:center;
@@ -756,6 +769,7 @@ span.hoverBox .zoom{
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
+
 ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
