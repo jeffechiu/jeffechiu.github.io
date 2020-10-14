@@ -723,13 +723,19 @@ ul.portfolioContainer li:hover span.hoverBox{
 	-webkit-transition-duration: 0.2s;
 }
 
-span.hoverBox .text {
+/*span.hoverBox .text {
 	width : 70%;
+	padding-top: 20%;
+	margin: auto;
+}*/
+
+.text {
+	width: 70%;
 	padding-top: 20%;
 	margin: auto;
 }
 
-span.hoverBox a{
+.text a {
 	font-size: 2em;
 }
 
